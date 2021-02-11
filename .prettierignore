@@ -2,3 +2,7 @@
 
 /dist
 /coverage
+
+/apps/suo-website/node_modules
+/apps/suo-website/public
+/apps/suo-website/.cache
