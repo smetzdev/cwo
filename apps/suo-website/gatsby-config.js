@@ -5,7 +5,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-emotion",
-
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-svgr",
       options: {
