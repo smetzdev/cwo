@@ -4,10 +4,10 @@ module.exports = {
     description: `This is a gatsby application created by Nx.`,
   },
   plugins: [
-    'gatsby-plugin-emotion',
+    "gatsby-plugin-emotion",
 
     {
-      resolve: 'gatsby-plugin-svgr',
+      resolve: "gatsby-plugin-svgr",
       options: {
         svgo: false,
         ref: true,
@@ -42,4 +42,4 @@ module.exports = {
       },
     },
   ],
-};
+}
