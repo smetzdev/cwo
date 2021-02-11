@@ -15,19 +15,13 @@
             "color": true,
             "profile": false
           },
-          "configurations": {
-            "production": {}
-          }
+          "configurations": { "production": {} }
         },
         "serve": {
           "executor": "@nrwl/gatsby:server",
-          "options": {
-            "buildTarget": "suo-website:build"
-          },
+          "options": { "buildTarget": "suo-website:build" },
           "configurations": {
-            "production": {
-              "buildTarget": "suo-website:build:production"
-            }
+            "production": { "buildTarget": "suo-website:build:production" }
           }
         },
         "lint": {
@@ -59,9 +53,7 @@
             "devServerTarget": "suo-website:serve"
           },
           "configurations": {
-            "production": {
-              "devServerTarget": "suo-website:serve:production"
-            }
+            "production": { "devServerTarget": "suo-website:serve:production" }
           }
         },
         "lint": {
@@ -73,13 +65,7 @@
       }
     }
   },
-  "cli": {
-    "defaultCollection": "@nrwl/gatsby"
-  },
-  "generators": {
-    "@nrwl/gatsby": {
-      "application": {}
-    }
-  },
+  "cli": { "defaultCollection": "@nrwl/gatsby" },
+  "generators": { "@nrwl/gatsby": { "application": {} } },
   "defaultProject": "suo-website"
 }
