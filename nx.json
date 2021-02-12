@@ -17,6 +17,7 @@
   },
   "projects": {
     "suo-website": { "tags": [] },
-    "suo-website-e2e": { "tags": [], "implicitDependencies": ["suo-website"] }
+    "suo-website-e2e": { "tags": [], "implicitDependencies": ["suo-website"] },
+    "designtokens": { "tags": [] }
   }
 }

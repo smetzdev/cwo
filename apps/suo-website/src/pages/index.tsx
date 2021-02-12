@@ -2,8 +2,8 @@ import React from "react"
 
 export default function Index() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="container">
+      <h1 className="font-display">Hello</h1>
     </div>
   )
 }

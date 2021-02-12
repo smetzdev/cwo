@@ -63,6 +63,25 @@
           }
         }
       }
+    },
+    "designtokens": {
+      "root": "libs/designtokens",
+      "sourceRoot": "libs/designtokens/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": { "lintFilePatterns": ["libs/designtokens/**/*.js"] }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/designtokens"],
+          "options": {
+            "jestConfig": "libs/designtokens/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": { "defaultCollection": "@nrwl/gatsby" },

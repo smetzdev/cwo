@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply tracking-wider;
+  @apply uppercase;
+  @apply font-display;
+}
+
+a {
+  @apply transition-colors;
+  @apply duration-150;
+  @apply ease-in-out;
+}
+
+a:hover {
+  @apply text-primary-400;
+}
+
+::-moz-selection {
+  @apply bg-primary-600;
+  @apply text-white;
+}
+::selection {
+  @apply bg-primary-600;
+  @apply text-white;
+}
+
+body {
+  @apply text-gray-100;
+  @apply bg-gray-900;
+}
