@@ -53,9 +53,9 @@ It might look something like this:
 ```
 
 It expects to have all fonts to be available under /fonts/\*\*\*, so you have to put your fonts folder
-into the static files. The fonts folder is saved in "./shared-assets".
-You can run this command in the command line :
+into the static files or make a symlink. The fonts folder is saved in "libs/shared/".
+You can run this command in the command line for a symlink :
 
 ```bash
-mkdir -p ./apps/*APP_NAME*/static/fonts && cp -a ./shared-assets/fonts ./apps/*APP_NAME\*/static
+ln -s ***ORIGINAL/FONTS/PATH*** ***PATH/TO/THE/COPY***
 ```
