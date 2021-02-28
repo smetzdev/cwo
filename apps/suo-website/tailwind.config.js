@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const cwoTailwindConfig = require("../../libs/tailwind-config")
+const cwoTailwindConfig = require("../../libs/shared/tailwind-config")
 
 module.exports = {
   presets: [cwoTailwindConfig],

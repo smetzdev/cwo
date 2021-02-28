@@ -15,13 +15,19 @@
             "color": true,
             "profile": false
           },
-          "configurations": { "production": {} }
+          "configurations": {
+            "production": {}
+          }
         },
         "serve": {
           "executor": "@nrwl/gatsby:server",
-          "options": { "buildTarget": "suo-website:build" },
+          "options": {
+            "buildTarget": "suo-website:build"
+          },
           "configurations": {
-            "production": { "buildTarget": "suo-website:build:production" }
+            "production": {
+              "buildTarget": "suo-website:build:production"
+            }
           }
         },
         "lint": {
@@ -53,7 +59,9 @@
             "devServerTarget": "suo-website:serve"
           },
           "configurations": {
-            "production": { "devServerTarget": "suo-website:serve:production" }
+            "production": {
+              "devServerTarget": "suo-website:serve:production"
+            }
           }
         },
         "lint": {
@@ -64,27 +72,35 @@
         }
       }
     },
-    "designtokens": {
-      "root": "libs/designtokens",
-      "sourceRoot": "libs/designtokens/src",
+    "shared-designtokens": {
+      "root": "libs/shared/designtokens",
+      "sourceRoot": "libs/shared/designtokens/src",
       "projectType": "library",
       "targets": {
         "lint": {
           "executor": "@nrwl/linter:eslint",
-          "options": { "lintFilePatterns": ["libs/designtokens/**/*.js"] }
+          "options": {
+            "lintFilePatterns": ["libs/shared/designtokens/**/*.js"]
+          }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/designtokens"],
+          "outputs": ["coverage/libs/shared/designtokens"],
           "options": {
-            "jestConfig": "libs/designtokens/jest.config.js",
+            "jestConfig": "libs/shared/designtokens/jest.config.js",
             "passWithNoTests": true
           }
         }
       }
     }
   },
-  "cli": { "defaultCollection": "@nrwl/gatsby" },
-  "generators": { "@nrwl/gatsby": { "application": {} } },
+  "cli": {
+    "defaultCollection": "@nrwl/gatsby"
+  },
+  "generators": {
+    "@nrwl/gatsby": {
+      "application": {}
+    }
+  },
   "defaultProject": "suo-website"
 }
