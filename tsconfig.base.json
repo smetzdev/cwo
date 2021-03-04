@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cwo/shared/designtokens": ["libs/shared/designtokens/src/index.js"]
+      "@cwo/shared/designtokens": ["libs/shared/designtokens/src/index.js"],
+      "@cwo/shared/styles": ["libs/shared/styles/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
