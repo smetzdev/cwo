@@ -1,6 +1,4 @@
 {
-  "npmScope": "cwo",
-  "affected": { "defaultBase": "master" },
   "implicitDependencies": {
     "workspace.json": "*",
     "package.json": { "dependencies": "*", "devDependencies": "*" },
@@ -9,16 +7,28 @@
     ".eslintrc.json": "*",
     "nx.json": "*"
   },
+  "affected": { "defaultBase": "master" },
+  "npmScope": "cwo",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
+      }
     }
   },
   "projects": {
     "suo-website": { "tags": [] },
     "suo-website-e2e": { "tags": [], "implicitDependencies": ["suo-website"] },
     "shared-designtokens": { "tags": [] },
-    "shared-styles": { "tags": [] }
+    "shared-styles": { "tags": [] },
+    "shared-ui": { "tags": [] },
+    "shared-storybook-decorators": { "tags": [] }
   }
 }

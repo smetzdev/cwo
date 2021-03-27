@@ -21,7 +21,7 @@ module.exports = {
         primary: colors.red,
       },
       fontFamily: {
-        display: ["DaysLater", "Helvetica Neue", "sans-serif"],
+        display: ["Lacquer", "Helvetica Neue", "sans-serif"],
       },
     },
   },
