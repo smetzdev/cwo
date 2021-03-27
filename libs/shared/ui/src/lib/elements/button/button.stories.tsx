@@ -7,3 +7,8 @@ export default {
 }
 
 export const Base = () => <Button>I am a Button</Button>
+export const Link = () => (
+  <Button as="a" href="#">
+    Iam a link
+  </Button>
+)
