@@ -19,11 +19,15 @@ export const baseStyles = css`
     ${tw`text-primary-400`}
   }
 
-  ::-moz-selection,
+  ::-moz-selection {
+    ${tw`text-white bg-primary-600`}
+  }
+
   ::selection {
     ${tw`text-white bg-primary-600`}
   }
+
   body {
-    ${tw`text-gray-100 bg-gray-900`}
+    ${tw`text-gray-100 bg-gray-900`};
   }
 `
