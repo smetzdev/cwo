@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
-  "files": ["../../../twin.d.ts"],
+  "files": ["../../../twin.d.ts", "../../../casting.d.ts"],
   "include": [],
   "references": [
     {

@@ -8,7 +8,7 @@ export const baseStyles = css`
   h4,
   h5,
   h6 {
-    ${tw`tracking-wider uppercase font-display`}
+    ${tw`font-display`}
   }
 
   a {
