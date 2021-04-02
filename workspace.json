@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "cli": {
-    "defaultCollection": "@nrwl/gatsby"
-  },
+  "cli": { "defaultCollection": "@nrwl/gatsby" },
   "defaultProject": "suo-website",
   "generators": {
-    "@nrwl/gatsby": {
-      "application": {}
-    }
+    "@nrwl/gatsby": { "application": {} },
+    "@nrwl/react": { "application": { "babel": true } }
   },
   "projects": {
     "suo-website": {
@@ -24,34 +21,24 @@
             "color": true,
             "profile": false
           },
-          "configurations": {
-            "production": {}
-          }
+          "configurations": { "production": {} }
         },
         "serve": {
           "executor": "@nrwl/gatsby:server",
-          "options": {
-            "buildTarget": "suo-website:build"
-          },
+          "options": { "buildTarget": "suo-website:build" },
           "configurations": {
-            "production": {
-              "buildTarget": "suo-website:build:production"
-            }
+            "production": { "buildTarget": "suo-website:build:production" }
           }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "apps/suo-website/**/*.{ts,tsx,js,jsx}"
-            ]
+            "lintFilePatterns": ["apps/suo-website/**/*.{ts,tsx,js,jsx}"]
           }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/apps/suo-website"
-          ],
+          "outputs": ["coverage/apps/suo-website"],
           "options": {
             "jestConfig": "apps/suo-website/jest.config.js",
             "passWithNoTests": true
@@ -72,17 +59,13 @@
             "devServerTarget": "suo-website:serve"
           },
           "configurations": {
-            "production": {
-              "devServerTarget": "suo-website:serve:production"
-            }
+            "production": { "devServerTarget": "suo-website:serve:production" }
           }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "apps/suo-website-e2e/**/*.{js,ts}"
-            ]
+            "lintFilePatterns": ["apps/suo-website-e2e/**/*.{js,ts}"]
           }
         }
       }
@@ -95,16 +78,12 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "libs/shared/designtokens/**/*.js"
-            ]
+            "lintFilePatterns": ["libs/shared/designtokens/**/*.js"]
           }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/libs/shared/designtokens"
-          ],
+          "outputs": ["coverage/libs/shared/designtokens"],
           "options": {
             "jestConfig": "libs/shared/designtokens/jest.config.js",
             "passWithNoTests": true
@@ -120,16 +99,12 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "libs/shared/styles/**/*.{ts,tsx,js,jsx}"
-            ]
+            "lintFilePatterns": ["libs/shared/styles/**/*.{ts,tsx,js,jsx}"]
           }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/libs/shared/styles"
-          ],
+          "outputs": ["coverage/libs/shared/styles"],
           "options": {
             "jestConfig": "libs/shared/styles/jest.config.js",
             "passWithNoTests": true
@@ -145,16 +120,12 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "libs/shared/ui/**/*.{ts,tsx,js,jsx}"
-            ]
+            "lintFilePatterns": ["libs/shared/ui/**/*.{ts,tsx,js,jsx}"]
           }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/libs/shared/ui"
-          ],
+          "outputs": ["coverage/libs/shared/ui"],
           "options": {
             "jestConfig": "libs/shared/ui/jest.config.js",
             "passWithNoTests": true
@@ -165,33 +136,19 @@
           "options": {
             "uiFramework": "@storybook/react",
             "port": 4400,
-            "config": {
-              "configFolder": "libs/shared/ui/.storybook"
-            }
+            "config": { "configFolder": "libs/shared/ui/.storybook" }
           },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
+          "configurations": { "ci": { "quiet": true } }
         },
         "build-storybook": {
           "executor": "@nrwl/storybook:build",
-          "outputs": [
-            "{options.outputPath}"
-          ],
+          "outputs": ["{options.outputPath}"],
           "options": {
             "uiFramework": "@storybook/react",
             "outputPath": "dist/storybook/shared-ui",
-            "config": {
-              "configFolder": "libs/shared/ui/.storybook"
-            }
+            "config": { "configFolder": "libs/shared/ui/.storybook" }
           },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
+          "configurations": { "ci": { "quiet": true } }
         }
       }
     },
@@ -210,9 +167,7 @@
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/libs/shared/storybook-decorators"
-          ],
+          "outputs": ["coverage/libs/shared/storybook-decorators"],
           "options": {
             "jestConfig": "libs/shared/storybook-decorators/jest.config.js",
             "passWithNoTests": true

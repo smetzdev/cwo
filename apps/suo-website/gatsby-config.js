@@ -4,7 +4,7 @@ module.exports = {
     description: `This is a gatsby application created by Nx.`,
   },
   plugins: [
-    "gatsby-plugin-emotion",
+    "gatsby-plugin-styled-components",
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-svgr",
