@@ -1,7 +1,7 @@
-import { createGlobalStyle } from "styled-components"
 import tw from "twin.macro"
+import { css } from "@emotion/react"
 
-export const BaseStyles = createGlobalStyle`
+export const baseStyles = css`
   h1,
   h2,
   h3,
