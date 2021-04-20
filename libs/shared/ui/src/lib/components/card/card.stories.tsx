@@ -14,7 +14,7 @@ export const Base = () => (
         <img src="https://picsum.photos/1600/900" alt="" />
       </CardImageWrapper>
       <CardContent>
-        <h1>Hallo</h1>
+        <h1>Card</h1>
       </CardContent>
     </Card>
   </div>
