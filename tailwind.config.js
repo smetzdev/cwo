@@ -1,3 +1,4 @@
+const tailwindColors = require("tailwindcss/colors")
 const { colors } = require("./libs/shared/designtokens/src/index")
 const { boxShadow } = require("./libs/shared/tailwind-config")
 
@@ -18,7 +19,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: colors.red,
+        primary: {
+          ...colors.red,
+          DEFAULT: colors.red[500],
+        },
+        "primary-contrast": tailwindColors.white,
       },
       fontFamily: {
         display: ["Lacquer", "Helvetica Neue", "sans-serif"],
