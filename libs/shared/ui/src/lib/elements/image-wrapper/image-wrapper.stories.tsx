@@ -3,7 +3,7 @@ import "twin.macro"
 import { ImageWrapper } from "./index"
 
 export default {
-  title: "/ImageWrapper",
+  title: "Elements/ImageWrapper",
   component: ImageWrapper,
 }
 

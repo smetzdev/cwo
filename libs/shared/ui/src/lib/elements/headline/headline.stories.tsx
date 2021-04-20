@@ -3,7 +3,7 @@ import { Headline } from "./index"
 import { Bloody } from "../bloody"
 
 export default {
-  title: "Headline",
+  title: "Elements/Headline",
   component: Headline,
 }
 

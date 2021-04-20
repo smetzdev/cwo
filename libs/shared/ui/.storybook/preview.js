@@ -1,4 +1,5 @@
-import { withKnobs } from "@storybook/addon-knobs"
-import { WithGlobalStyles } from "../../storybook-decorators/src"
+import { globalDecorators } from "../../../../.storybook/global-decorators"
+import { globalParameters } from "../../../../.storybook/global-parameters"
 
-export const decorators = [withKnobs, WithGlobalStyles]
+export const parameters = globalParameters
+export const decorators = globalDecorators

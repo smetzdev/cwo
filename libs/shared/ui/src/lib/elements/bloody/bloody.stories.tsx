@@ -3,7 +3,7 @@ import "twin.macro"
 import { Bloody } from "./index"
 
 export default {
-  title: "Bloody",
+  title: "Elements/Bloody",
   component: Bloody,
 }
 

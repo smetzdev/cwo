@@ -3,6 +3,13 @@
   "ignorePatterns": ["!**/*", "public", ".cache"],
   "overrides": [
     {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "parserOptions": {
+        "project": ["apps/suo-website/tsconfig.*?.json"]
+      },
+      "rules": {}
+    },
+    {
       "files": ["*.tsx", "*.ts"],
       "rules": {
         "@typescript-eslint/camelcase": "off"
