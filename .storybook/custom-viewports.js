@@ -48,5 +48,3 @@ export const customViewports = {
     },
   },
 }
-
-console.log(customViewports)
