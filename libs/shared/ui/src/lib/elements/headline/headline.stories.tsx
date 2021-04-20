@@ -1,6 +1,6 @@
 import React from "react"
-import { Headline } from "./headline"
-import { Bloody } from "../bloody/bloody"
+import { Headline } from "./index"
+import { Bloody } from "../bloody"
 
 export default {
   title: "Headline",

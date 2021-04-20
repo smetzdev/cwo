@@ -1,6 +1,6 @@
 import React from "react"
 import "twin.macro"
-import { Card, CardImageWrapper, CardContent } from "./card"
+import { Card, CardImageWrapper, CardContent } from "./index"
 
 export default {
   title: "Components/Card",

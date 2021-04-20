@@ -1,6 +1,6 @@
 import React from "react"
 import "twin.macro"
-import { Bloody } from "./bloody"
+import { Bloody } from "./index"
 
 export default {
   title: "Bloody",
