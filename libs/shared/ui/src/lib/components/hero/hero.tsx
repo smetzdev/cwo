@@ -1,14 +1,11 @@
 import React, { HTMLAttributes } from "react"
 import "twin.macro"
-import { ImageWrapper as BgWrapper } from "../../elements"
+import { BgWrapper } from "./_bg-wrapper"
 
-export const Hero = ({ className, children }: HeroTypes) => {
+export const Hero = ({ className, children, Background }: HeroTypes) => {
   return (
     <div tw="h-screen relative" className={className}>
-      {/* Background */}
-      <BgWrapper tw="absolute inset-0">
-        <img src="https://picsum.photos/1280/720" alt="" />
-      </BgWrapper>
+      {Background && <BgWrapper>{Background}</BgWrapper>}
       {/* Content */}
       {children}
     </div>
@@ -17,4 +14,5 @@ export const Hero = ({ className, children }: HeroTypes) => {
 
 export type HeroTypes = {
   children?: React.ReactNode
+  Background?: JSX.Element
 } & HTMLAttributes<HTMLElement>
