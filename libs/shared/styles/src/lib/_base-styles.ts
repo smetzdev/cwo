@@ -20,11 +20,11 @@ export const baseStyles = css`
   }
 
   ::-moz-selection {
-    ${tw`text-white bg-primary-600`}
+    ${tw`text-primary-contrast bg-primary-600`}
   }
 
   ::selection {
-    ${tw`text-white bg-primary-600`}
+    ${tw`text-primary-contrast bg-primary-600`}
   }
 
   body {

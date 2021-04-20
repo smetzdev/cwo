@@ -11,7 +11,7 @@ export const VideoHero = ({ date }: VideoHeroProps) => {
           <br />
           <Bloody>Otzenhausen</Bloody>
         </h1>
-        <p tw="font-display mt-1 lg:text-2xl text-primary-500 sm:tracking-widest">
+        <p tw="font-display mt-1 lg:text-2xl text-primary sm:tracking-widest">
           <FormattedDate date={date} /> | Hunnenringhalle
         </p>
       </HeroContent>
