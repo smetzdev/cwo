@@ -5,4 +5,4 @@ export default {
   component: FormattedDate,
 }
 
-export const Base = () => <FormattedDate date={new Date("03.12.1988")} />
+export const Base = () => <FormattedDate date={new Date()} />
