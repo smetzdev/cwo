@@ -1,3 +1,2 @@
-export * from "./lib/elements/button/button"
-export * from "./lib/elements/bloody/bloody"
-export * from "./lib/elements/headline/headline"
+export * from "./lib/elements"
+export * from "./lib/components"
