@@ -151,29 +151,6 @@
           "configurations": { "ci": { "quiet": true } }
         }
       }
-    },
-    "shared-storybook-decorators": {
-      "root": "libs/shared/storybook-decorators",
-      "sourceRoot": "libs/shared/storybook-decorators/src",
-      "projectType": "library",
-      "targets": {
-        "lint": {
-          "executor": "@nrwl/linter:eslint",
-          "options": {
-            "lintFilePatterns": [
-              "libs/shared/storybook-decorators/**/*.{ts,tsx,js,jsx}"
-            ]
-          }
-        },
-        "test": {
-          "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/shared/storybook-decorators"],
-          "options": {
-            "jestConfig": "libs/shared/storybook-decorators/jest.config.js",
-            "passWithNoTests": true
-          }
-        }
-      }
     }
   }
 }

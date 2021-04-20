@@ -28,7 +28,6 @@
     "suo-website-e2e": { "tags": [], "implicitDependencies": ["suo-website"] },
     "shared-designtokens": { "tags": [] },
     "shared-styles": { "tags": [] },
-    "shared-ui": { "tags": [] },
-    "shared-storybook-decorators": { "tags": [] }
+    "shared-ui": { "tags": [] }
   }
 }

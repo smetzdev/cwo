@@ -17,10 +17,7 @@
     "paths": {
       "@cwo/shared/designtokens": ["libs/shared/designtokens/src/index.js"],
       "@cwo/shared/styles": ["libs/shared/styles/src/index.ts"],
-      "@cwo/shared/ui": ["libs/shared/ui/src/index.ts"],
-      "@cwo/shared/storybook-decorators": [
-        "libs/shared/storybook-decorators/src/index.ts"
-      ]
+      "@cwo/shared/ui": ["libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
