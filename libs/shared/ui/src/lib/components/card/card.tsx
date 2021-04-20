@@ -3,7 +3,7 @@ import "twin.macro"
 
 export function Card({ className, children }: CardProps) {
   return (
-    <article tw="bg-gray-500" className={className}>
+    <article tw="bg-gray-700" className={className}>
       {children}
     </article>
   )
