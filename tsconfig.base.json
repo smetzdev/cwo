@@ -17,7 +17,8 @@
     "paths": {
       "@cwo/shared/designtokens": ["libs/shared/designtokens/src/index.js"],
       "@cwo/shared/styles": ["libs/shared/styles/src/index.ts"],
-      "@cwo/shared/ui": ["libs/shared/ui/src/index.ts"]
+      "@cwo/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@cwo/suo-website/ui": ["libs/suo-website/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -24,7 +24,8 @@
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "storybook:shared-ui": "nx run shared-ui:storybook"
+    "storybook:shared-ui": "nx run shared-ui:storybook",
+    "storybook:suo-ui": "nx run suo-website-ui:storybook"
   },
   "private": true,
   "dependencies": {

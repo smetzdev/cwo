@@ -4,5 +4,6 @@ module.exports = {
     "<rootDir>/libs/shared/designtokens",
     "<rootDir>/libs/shared/styles",
     "<rootDir>/libs/shared/ui",
+    "<rootDir>/libs/suo-website/ui",
   ],
 }
