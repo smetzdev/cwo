@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
-  "files": ["../../../casting.d.ts"],
+  "files": [],
   "include": [],
   "references": [
     {
