@@ -4,6 +4,7 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "excludedFiles": ["*.stories.tsx"],
       "parserOptions": {
         "project": ["libs/shared/ui/tsconfig.*?.json"]
       },
