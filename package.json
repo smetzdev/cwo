@@ -31,6 +31,7 @@
   "dependencies": {
     "@emotion/react": "11.1.5",
     "@emotion/styled": "11.1.5",
+    "@heroicons/react": "^1.0.1",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "autoprefixer": "^10.2.4",
     "color-convert": "^2.0.1",
@@ -47,6 +48,7 @@
     "gatsby-plugin-typescript": "^2.12.0",
     "gatsby-source-filesystem": "^2.11.0",
     "gatsby-transformer-sharp": "^2.12.0",
+    "lodash": "^4.17.21",
     "postcss": "^8.2.6",
     "postcss-import": "^14.0.0",
     "prop-types": "15.7.2",
@@ -64,6 +66,7 @@
     "@babel/preset-env": "7.9.6",
     "@babel/preset-react": "7.9.4",
     "@babel/preset-typescript": "7.9.0",
+    "@emotion/babel-plugin": "11.2.0",
     "@nrwl/cli": "12.0.8",
     "@nrwl/cypress": "12.0.8",
     "@nrwl/eslint-plugin-nx": "12.0.8",
@@ -80,6 +83,7 @@
     "@storybook/react": "^6.1.11",
     "@svgr/webpack": "^5.4.0",
     "@testing-library/react": "11.2.5",
+    "@types/faker": "^5.5.3",
     "@types/jest": "26.0.8",
     "@types/node": "14.14.33",
     "@types/react": "17.0.3",
@@ -101,13 +105,13 @@
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.23.1",
     "eslint-plugin-react-hooks": "4.2.0",
+    "faker": "^5.5.3",
     "gatsby-plugin-emotion": "^6.3.0",
     "jest": "26.2.2",
     "prettier": "2.2.1",
     "ts-jest": "26.4.0",
     "ts-node": "~9.1.1",
     "typescript": "4.1.4",
-    "url-loader": "^3.0.0",
-    "@emotion/babel-plugin": "11.2.0"
+    "url-loader": "^3.0.0"
   }
 }
