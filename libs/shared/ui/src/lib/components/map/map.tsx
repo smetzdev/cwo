@@ -28,7 +28,7 @@ export const Map = ({ className, center, googleRoutesLink }: MapProps) => {
           href={googleRoutesLink}
           target="_blank"
           rel="noopener noreferrer"
-          tw="bg-gray-300 absolute top-0 right-0 z-10 mt-4 mr-4"
+          tw="absolute top-0 right-0 z-10 mt-4 mr-4"
         >
           Google Maps <ExternalLinkIcon tw="w-6 h-auto inline" />
         </Button>
